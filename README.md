@@ -12,12 +12,10 @@ Separado em 3 pastas.
 # clone o repositório
 $ git clone https://github.com/francivancastro/superlogica.git
 
-
-# Importe os aquivos banco.sql
-
-** Para para configurar os dados de conexão com o Mysql. **
-
 ```php
+# EXERCICIO 1
+cd exercicio1
+# Importe os aquivos banco.sql
 # Edite o arquivo "config.php"  e altere o valor das variáveis de acordo com sua configuração do banco.
 
 $config = array(
@@ -28,6 +26,11 @@ $config = array(
     'pass' => '', // Senha do banco de dados
     'dbname' => '', // Nome do banco de dados
 );
+# EXERCICIO 3
+cd exercicio3
+# Importe os aquivos banco.sql
+# Edite o arquivo "index.php"  e altere o valor das variáveis de acordo com sua configuração do banco.
+
 ```
 
 ```bash

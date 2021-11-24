@@ -21,6 +21,7 @@
     </div>
     <table class="table table-bordered table-striped">
         <tr>
+            <th>ID</th>
             <th>Name</th>
             <th>Username</th>
             <th>Zip Code</th>
@@ -31,6 +32,7 @@
         <?php foreach ($dados as $usuario) { ?>
             <tr>
                 <td><?= $usuario['id']; ?></td>
+                <td><?= $usuario['name']; ?></td>
                 <td><?= $usuario['username']; ?></td>
                 <td><?= $usuario['zipcode']; ?></td>
                 <td><?= $usuario['email']; ?></td>

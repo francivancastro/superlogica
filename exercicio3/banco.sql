@@ -1,4 +1,4 @@
-CREATE DATABASE 'exercicio3';
+CREATE DATABASE exercicio3;
 
 USE exercicio3;
 
